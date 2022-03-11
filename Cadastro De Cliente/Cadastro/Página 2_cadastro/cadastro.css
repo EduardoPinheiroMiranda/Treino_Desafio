@@ -1,5 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
 }
 #PlanoDeFundo{
     background-color:aquamarine;
@@ -12,11 +13,9 @@ body{
 #buttom{
     margin-top:20px;
     margin-left: 80%;
-    border-radius: 10px;
-    box-shadow: -1px -1px 2px;
     text-align: center;
     cursor: pointer;
-    height: 20px;
+    height: 30px;
 }
 input{
     border:0;
@@ -24,4 +23,7 @@ input{
     border-bottom: 1px solid black;
     outline: none;
     width: 90%;
+}
+.cor{
+    color: red;
 }

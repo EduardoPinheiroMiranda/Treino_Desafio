@@ -10,26 +10,31 @@
 <body>
     <div id="PlanoDeFundo">
         <div id="AreaDeCadastro">
-            <p id='nome'>Nome:<br> 
-                <input id="name" type="text">
+            <p>Nome:<br> 
+                <input id="name" class="nome" type="text">
+                <p id="nome" class="cor"></p>
             </p>
-            <p id="idade">Idade:<br> 
-                <input id="age" type="number">
+            <p>Idade:<br> 
+                <input id="age"  type="number">
+                <p id="idade" class="cor"></p> 
             </p>
-            <p id="mail">e-mail <br> 
-                <input id="email" type="email">
+            <p>e-mail <br> 
+                <input id="email" type="email"> 
+                <p id="mail" class="cor"></p>
             </p>
-            <p id="endereco">Endereço: <br> 
-                <input id="end"type="text">
+            <p>Endereço: <br> 
+                <input id="end" type="text">
+                <p id="endereco" class="cor"></p> 
             </p>
-            <p id="data_nasc">Data nascimento: <br> 
+            <p>Data nascimento: <br> 
                 <input id="nasc" type="date">
+                <p id="data_nasc" class="cor"></p>
             </p>
         </div>
     </div> 
 
-    <div id="buttom" onclick="Adicionar()" onmouseenter="entrar()" onmouseout="sair()">
-    Adicionar
+    <div >
+        <button id="buttom" onclick="Adicionar()" >Adicionar</button>
     </div>
 
     <script src="cadastro.js"></script>
