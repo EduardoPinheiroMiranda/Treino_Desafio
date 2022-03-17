@@ -78,8 +78,11 @@ function Adicionar(){
 
         conf.setAttribute('style','background-color: rgb(58, 255, 9)')
         conf.innerHTML = `<strong>O cadastro foi realizado com sucesso</strong>`
-        
 
+        setTimeout(()=>{
+            window.location.href="../Página 1/Tabeladecadastro.html"
+        },2500)
+        
 
     }
 
