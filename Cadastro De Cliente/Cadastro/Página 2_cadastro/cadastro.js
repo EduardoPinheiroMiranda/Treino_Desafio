@@ -4,8 +4,9 @@ const idade = document.getElementById('age')
 const email = document.getElementById('email')
 const end = document.getElementById('end')
 const data_nasc = document.getElementById('nasc')
+const conf = document.getElementById('conf')
 //---------------------alertas--------------------------------
-const alert_nome = document.getElementById("nome")
+const alert_nome = document.getElementById('nome')
 const alert_idade = document.getElementById('idade')
 const alert_mail = document.getElementById('mail')
 const alert_end = document.getElementById('endereco')
@@ -74,7 +75,11 @@ function Adicionar(){
             data_nasc: data_nasc.value
         })
         localStorage.setItem('listadecadastro', JSON.stringify(listadecadastro))
-        alert('dados salvos')
+
+        conf.setAttribute('style','background-color: rgb(58, 255, 9)')
+        conf.innerHTML = `<strong>O cadastro foi realizado com sucesso</strong>`
+        
+
 
     }
 

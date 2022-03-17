@@ -27,3 +27,11 @@ input{
 .cor{
     color: red;
 }
+#conf{
+    margin-top: 15px;
+    width:200px;
+    margin-left: 35%;
+    padding: 10px;
+    color: rgba(0, 0, 255, 0.692);
+    border-radius: 10px;
+}
