@@ -24,3 +24,9 @@
     margin-top: -33px;
     margin-left: 400px;
 }
+table,th,td{
+    border-collapse:collapse;
+    border: 1px solid black;
+    text-align: center;
+    width: auto;
+}
